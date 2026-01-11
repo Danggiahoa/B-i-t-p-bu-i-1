@@ -1,0 +1,11 @@
+public class ThongTinSV {
+
+    public static void main(String[] args) {
+
+        System.out.println("Ho ten: Dang Gia Hoa");
+        System.out.print("Ma so sinh vien: 1350070028");
+        System.out.println("Lop: HTTT1");
+        System.out.println("Tuoi: 19");
+
+    }
+}
