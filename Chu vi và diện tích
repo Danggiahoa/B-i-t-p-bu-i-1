@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class HinhChuNhat {
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+
+        System.out.print("Nhap canh a: ");
+        double a = kb.nextDouble();
+
+        System.out.print("Nhap canh b: ");
+        double b = kb.nextDouble();
+
+        if (a > 0 && b > 0) {
+            double chuVi = (a + b) * 2;
+            double dienTich = a * b;
+
+            System.out.println("Chu vi hinh chu nhat = " + chuVi);
+            System.out.println("Dien tich hinh chu nhat = " + dienTich);
+        } else {
+            System.out.println("Do dai canh khong hop le");
+        }
+    }
+}
